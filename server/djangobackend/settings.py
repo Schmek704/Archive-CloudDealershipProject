@@ -26,7 +26,7 @@ SECRET_KEY = 'ao5z(o(z@cvzodm99d32jkxa5e8a1!q_4sqss5-a%n6tg$#h$+'
 DEBUG = True
 
 ALLOWED_HOSTS = ["dm1dealership.us-south.cf.appdomain.cloud"]
-# ALLOWED_HOSTS = []
+ALLOWED_HOSTS = []
 
 
 # Application definition
