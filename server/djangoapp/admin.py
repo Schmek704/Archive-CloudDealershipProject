@@ -5,8 +5,8 @@ from .models import CarModel, CarMake
 # Register your models here.
 
 # CarModelInline class
-# class CarModelInline(admin.StackedInline):
-#     model = CarMake
+class CarModelInline(admin.StackedInline):
+    model = CarMake
 
 
 # CarModelAdmin class
