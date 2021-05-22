@@ -5,22 +5,30 @@ from django.utils.timezone import now
 # Create your models here.
 
 class CarMake(models.Model):
-    name = models.CharField(max_length=30)
-    description = models.CharField(max_length=45) 
+    name = models.TextField()
+    description = models.TextField() 
 
     def __str__(self):
-        return self.name
+        return self.name + "," + sel.description
 
 
 class CarModel(models.Model):
-    model = models.CharField(max_length=30)
-    dealer_id = models.IntegerField()    
-    name = models.CharField(max_length=30)
-    model_type = models.CharField(max_length=20) 
+    truck = 'truck'
+    sedan = 'sedan'
+    suv = 'suv'
+    type_choices= [
+        (truck, 'Truck'),
+        (sedan, 'Sedan'),
+        (suv, 'SUV'),
+    ]
+    carmodel = models.ForeignKey(CarMake, on_delete=models.CASCADE)
+    dealer_id = models.IntegerField()
+    name = models.TextField()
+    type = models.CharField(max_length=15, choices=type_choices)
     year = models.DateField()
 
     def __str__(self):
-        return self.name
+        return str(self.year.year) +"/"+ self.name +"/"+ self.type
 
 
 # <HINT> Create a plain Python class `CarDealer` to hold dealer data
@@ -50,3 +58,19 @@ class CarDealer:
         return "Dealer name: " + self.full_name
 
 # <HINT> Create a plain Python class `DealerReview` to hold review data
+class DealerReview:
+
+    def __init__(self, dealership, name, purchase, review, purchase_date, car_make, car_model, car_year, sentiment):
+        self.dealership = dealership
+        self.name = name
+        self.purchase = purchase
+        self.review = review
+        self.purchase_date = purchase_date
+        self.car_make = car_make
+        self.car_model = car_model
+        self.car_year = car_year
+        self.sentiment = sentiment
+
+
+    def __str__(self):
+        return self.dealership + ":" + self.review
