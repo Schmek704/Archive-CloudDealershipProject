@@ -43,7 +43,7 @@ def get_dealer_reviews_from_cf(url, dealership):
     if json_result:
         # Get the row list in JSON as dealers
         try:
-            reviews = json_result["filtered_entries"]
+            reviews = json_result["dealerships"]
         except:
             return results
         # For each dealer object
