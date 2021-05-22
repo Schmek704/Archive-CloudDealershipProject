@@ -86,7 +86,7 @@ def get_dealers_from_cf(url, **kwargs):
     json_result = get_request(url)
     if json_result:
         # Get the row list in JSON as dealers
-        dealers = json_result["filtered_entries"]
+        dealers = json_result["dealerships"]
         # For each dealer object
         for dealer in dealers:
             # Get its content in `doc` object
@@ -142,6 +142,6 @@ def post_request(url, **kwargs):
     return json_data
 
 def post_review(doc):
-    url = "https://00b8e258.us-south.apigw.appdomain.cloud/api/review"
+    url = "https://7d6362dc.us-south.apigw.appdomain.cloud/api/dealership/api/review"
     post_request(url, data=doc)
     return 
