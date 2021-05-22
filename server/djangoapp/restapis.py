@@ -75,7 +75,7 @@ def get_dealer_reviews_from_cf(url, dealership):
                     car_year="",
                     sentiment="")
             
-            review_obj.sentiment = analyze_review_sentiments(review_obj.review)
+#             review_obj.sentiment = analyze_review_sentiments(review_obj.review)
             results.append(review_obj)
     return results
 
@@ -97,33 +97,7 @@ def get_dealers_from_cf(url, **kwargs):
                                    short_name=dealer_doc["short_name"],
                                    st=dealer_doc["st"], zip=dealer_doc["zip"])
             results.append(dealer_obj)
-
     return results
-
-
-# Create an `analyze_review_sentiments` method to call Watson NLU and analyze text
-# def analyze_review_sentiments(text):
-# - Call get_request() with specified arguments
-# - Get the returned sentiment label such as Positive or Negative
-# def analyze_review_sentiments(text):
-#     url = "https://api.us-south.natural-language-understanding.watson.cloud.ibm.com/instances/03cd4645-5c60-40ac-8c3d-b5cd4e2f4998"
-#     api_key = "SCKoDjMCMtnxywk81KPIosg_VwOlDU7z7ExJMX-AvW9W"
-#     authenticator = IAMAuthenticator(api_key)
-#     nlu = NaturalLanguageUnderstandingV1(
-#         version='2020-08-01',
-#         authenticator=authenticator
-#     )
-#     nlu.set_service_url(url)
-#     try:
-#         response = nlu.analyze(
-#             text=text,
-#             features=Features(sentiment=SentimentOptions(document=True))
-#         ).get_result()
-#         sent = response['sentiment']['document']['label']
-#     except:
-#         sent = "neutral"
-
-#     return sent
 
 
 def post_request(url, **kwargs):
