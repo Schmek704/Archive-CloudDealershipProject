@@ -1,604 +1,653 @@
 {
-  "dealerships": [
-    {
-      "id": 1,
-      "city": "El Paso",
-      "state": "Texas",
-      "st": "TX",
+  "dealerships": [{
+    "doc": {
       "address": "3 Nova Court",
-      "zip": "88563",
+      "city": "El Paso",
+      "full_name": "Holdlamis Car Dealership",
+      "id": 1,
       "lat": 31.6948,
       "long": -106.3,
       "short_name": "Holdlamis",
-      "full_name": "Holdlamis Car Dealership"
-    },
-    {
-      "id": 2,
-      "city": "Minneapolis",
-      "state": "Minnesota",
-      "st": "MN",
+      "st": "TX",
+      "state": "Texas",
+      "zip": "88563"
+    }
+  }, {
+    "doc": {
       "address": "6337 Butternut Crossing",
-      "zip": "55402",
+      "city": "Minneapolis",
+      "full_name": "Temp Car Dealership",
+      "id": 2,
       "lat": 44.9762,
       "long": -93.2759,
       "short_name": "Temp",
-      "full_name": "Temp Car Dealership"
-    },
-    {
-      "id": 3,
-      "city": "Birmingham",
-      "state": "Alabama",
-      "st": "AL",
+      "st": "MN",
+      "state": "Minnesota",
+      "zip": "55402"
+    }
+  }, {
+    "doc": {
       "address": "9477 Twin Pines Center",
-      "zip": "35285",
+      "city": "Birmingham",
+      "full_name": "Sub-Ex Car Dealership",
+      "id": 3,
       "lat": 33.5446,
       "long": -86.9292,
       "short_name": "Sub-Ex",
-      "full_name": "Sub-Ex Car Dealership"
-    },
-    {
-      "id": 4,
-      "city": "Dallas",
-      "state": "Texas",
-      "st": "TX",
+      "st": "AL",
+      "state": "Alabama",
+      "zip": "35285"
+    }
+  }, {
+    "doc": {
       "address": "85800 Hazelcrest Circle",
-      "zip": "75241",
+      "city": "Dallas",
+      "full_name": "Solarbreeze Car Dealership",
+      "id": 4,
       "lat": 32.6722,
       "long": -96.7774,
       "short_name": "Solarbreeze",
-      "full_name": "Solarbreeze Car Dealership"
-    },
-    {
-      "id": 5,
-      "city": "Baltimore",
-      "state": "Maryland",
-      "st": "MD",
+      "st": "TX",
+      "state": "Texas",
+      "zip": "75241"
+    }
+  }, {
+    "doc": {
       "address": "93 Golf Course Pass",
-      "zip": "21203",
+      "city": "Baltimore",
+      "full_name": "Regrant Car Dealership",
+      "id": 5,
       "lat": 39.2847,
       "long": -76.6205,
       "short_name": "Regrant",
-      "full_name": "Regrant Car Dealership"
-    },
-    {
-      "id": 6,
-      "city": "Wilkes Barre",
-      "state": "Pennsylvania",
-      "st": "PA",
+      "st": "MD",
+      "state": "Maryland",
+      "zip": "21203"
+    }
+  }, {
+    "doc": {
       "address": "2 Burrows Hill",
-      "zip": "18763",
+      "city": "Wilkes Barre",
+      "full_name": "Stronghold Car Dealership",
+      "id": 6,
       "lat": 41.2722,
       "long": -75.8801,
       "short_name": "Stronghold",
-      "full_name": "Stronghold Car Dealership"
-    },
-    {
-      "id": 7,
-      "city": "Pueblo",
-      "state": "Colorado",
-      "st": "CO",
+      "st": "PA",
+      "state": "Pennsylvania",
+      "zip": "18763"
+    }
+  }, {
+    "doc": {
       "address": "9 Cambridge Park",
-      "zip": "81010",
+      "city": "Pueblo",
+      "full_name": "Job Car Dealership",
+      "id": 7,
       "lat": 38.1286,
       "long": -104.5523,
       "short_name": "Job",
-      "full_name": "Job Car Dealership"
-    },
-    {
-      "id": 8,
-      "city": "Topeka",
-      "state": "Kansas",
-      "st": "KS",
+      "st": "CO",
+      "state": "Colorado",
+      "zip": "81010"
+    }
+  }, {
+    "doc": {
       "address": "288 Larry Place",
-      "zip": "66642",
+      "city": "Topeka",
+      "full_name": "Bytecard Car Dealership",
+      "id": 8,
       "lat": 39.0429,
       "long": -95.7697,
       "short_name": "Bytecard",
-      "full_name": "Bytecard Car Dealership"
-    },
-    {
-      "id": 9,
-      "city": "Dallas",
-      "state": "Texas",
-      "st": "TX",
+      "st": "KS",
+      "state": "Kansas",
+      "zip": "66642"
+    }
+  }, {
+    "doc": {
       "address": "253 Hanson Junction",
-      "zip": "75216",
+      "city": "Dallas",
+      "full_name": "Job Car Dealership",
+      "id": 9,
       "lat": 32.7086,
       "long": -96.7955,
       "short_name": "Job",
-      "full_name": "Job Car Dealership"
-    },
-    {
-      "id": 10,
-      "city": "Washington",
-      "state": "District of Columbia",
-      "st": "DC",
+      "st": "TX",
+      "state": "Texas",
+      "zip": "75216"
+    }
+  }, {
+    "doc": {
       "address": "108 Memorial Pass",
-      "zip": "20005",
+      "city": "Washington",
+      "full_name": "Alphazap Car Dealership",
+      "id": 10,
       "lat": 38.9067,
       "long": -77.0312,
       "short_name": "Alphazap",
-      "full_name": "Alphazap Car Dealership"
-    },
-    {
-      "id": 11,
-      "city": "Carol Stream",
-      "state": "Illinois",
-      "st": "IL",
+      "st": "DC",
+      "state": "District of Columbia",
+      "zip": "20005"
+    }
+  }, {
+    "doc": {
       "address": "8108 Dryden Court",
-      "zip": "60351",
+      "city": "Carol Stream",
+      "full_name": "Rank Car Dealership",
+      "id": 11,
       "lat": 41.9166,
       "long": -88.1208,
       "short_name": "Rank",
-      "full_name": "Rank Car Dealership"
-    },
-    {
-      "id": 12,
-      "city": "Silver Spring",
-      "state": "Maryland",
-      "st": "MD",
+      "st": "IL",
+      "state": "Illinois",
+      "zip": "60351"
+    }
+  }, {
+    "doc": {
       "address": "168 Pawling Lane",
-      "zip": "20918",
+      "city": "Silver Spring",
+      "full_name": "Tin Car Dealership",
+      "id": 12,
       "lat": 39.144,
       "long": -77.2076,
       "short_name": "Tin",
-      "full_name": "Tin Car Dealership"
-    },
-    {
-      "id": 13,
-      "city": "Baltimore",
-      "state": "Maryland",
       "st": "MD",
+      "state": "Maryland",
+      "zip": "20918"
+    }
+  }, {
+    "doc": {
       "address": "452 Fair Oaks Drive",
-      "zip": "21275",
+      "city": "Baltimore",
+      "full_name": "Y-Solowarm Car Dealership",
+      "id": 13,
       "lat": 39.2847,
       "long": -76.6205,
       "short_name": "Y-Solowarm",
-      "full_name": "Y-Solowarm Car Dealership"
-    },
-    {
-      "id": 14,
-      "city": "San Francisco",
-      "state": "California",
-      "st": "CA",
+      "st": "MD",
+      "state": "Maryland",
+      "zip": "21275"
+    }
+  }, {
+    "doc": {
       "address": "2109 Scott Parkway",
-      "zip": "94147",
+      "city": "San Francisco",
+      "full_name": "It Car Dealership",
+      "id": 14,
       "lat": 37.7848,
       "long": -122.7278,
       "short_name": "It",
-      "full_name": "It Car Dealership"
-    },
-    {
-      "id": 15,
-      "city": "San Antonio",
-      "state": "Texas",
-      "st": "TX",
+      "st": "CA",
+      "state": "California",
+      "zip": "94147"
+    }
+  }, {
+    "doc": {
       "address": "5057 Pankratz Hill",
-      "zip": "78225",
+      "city": "San Antonio",
+      "full_name": "Tempsoft Car Dealership",
+      "id": 15,
       "lat": 29.3875,
       "long": -98.5245,
       "short_name": "Tempsoft",
-      "full_name": "Tempsoft Car Dealership"
-    },
-    {
-      "id": 16,
-      "city": "El Paso",
-      "state": "Texas",
       "st": "TX",
+      "state": "Texas",
+      "zip": "78225"
+    }
+  }, {
+    "doc": {
       "address": "0 Rieder Trail",
-      "zip": "79994",
+      "city": "El Paso",
+      "full_name": "Treeflex Car Dealership",
+      "id": 16,
       "lat": 31.6948,
       "long": -106.3,
       "short_name": "Treeflex",
-      "full_name": "Treeflex Car Dealership"
-    },
-    {
-      "id": 17,
-      "city": "San Jose",
-      "state": "California",
-      "st": "CA",
+      "st": "TX",
+      "state": "Texas",
+      "zip": "79994"
+    }
+  }, {
+    "doc": {
       "address": "7670 American Ash Drive",
-      "zip": "95138",
+      "city": "San Jose",
+      "full_name": "Home Ing Car Dealership",
+      "id": 17,
       "lat": 37.2602,
       "long": -121.7709,
       "short_name": "Home Ing",
-      "full_name": "Home Ing Car Dealership"
-    },
-    {
-      "id": 18,
-      "city": "Whittier",
-      "state": "California",
       "st": "CA",
+      "state": "California",
+      "zip": "95138"
+    }
+  }, {
+    "doc": {
       "address": "4 Pearson Avenue",
-      "zip": "90605",
+      "city": "Whittier",
+      "full_name": "Bitchip Car Dealership",
+      "id": 18,
       "lat": 33.9413,
       "long": -118.0356,
       "short_name": "Bitchip",
-      "full_name": "Bitchip Car Dealership"
-    },
-    {
-      "id": 19,
-      "city": "Hialeah",
-      "state": "Florida",
-      "st": "FL",
+      "st": "CA",
+      "state": "California",
+      "zip": "90605"
+    }
+  }, {
+    "doc": {
       "address": "93 Monument Circle",
-      "zip": "33013",
+      "city": "Hialeah",
+      "full_name": "Otcom Car Dealership",
+      "id": 19,
       "lat": 25.8594,
       "long": -80.2725,
       "short_name": "Otcom",
-      "full_name": "Otcom Car Dealership"
-    },
-    {
-      "id": 20,
-      "city": "Detroit",
-      "state": "Michigan",
-      "st": "MI",
+      "st": "FL",
+      "state": "Florida",
+      "zip": "33013"
+    }
+  }, {
+    "doc": {
       "address": "4580 Waubesa Lane",
-      "zip": "48224",
+      "city": "Detroit",
+      "full_name": "Subin Car Dealership",
+      "id": 20,
       "lat": 42.4098,
       "long": -82.9441,
       "short_name": "Subin",
-      "full_name": "Subin Car Dealership"
-    },
-    {
-      "id": 21,
-      "city": "San Francisco",
-      "state": "California",
-      "st": "CA",
+      "st": "MI",
+      "state": "Michigan",
+      "zip": "48224"
+    }
+  }, {
+    "doc": {
       "address": "046 Mockingbird Junction",
-      "zip": "94154",
+      "city": "San Francisco",
+      "full_name": "Andalax Car Dealership",
+      "id": 21,
       "lat": 37.7848,
       "long": -122.7278,
       "short_name": "Andalax",
-      "full_name": "Andalax Car Dealership"
-    },
-    {
-      "id": 22,
-      "city": "Fort Lauderdale",
-      "state": "Florida",
-      "st": "FL",
+      "st": "CA",
+      "state": "California",
+      "zip": "94154"
+    }
+  }, {
+    "doc": {
       "address": "45737 Butternut Lane",
-      "zip": "33330",
+      "city": "Fort Lauderdale",
+      "full_name": "Y-Solowarm Car Dealership",
+      "id": 22,
       "lat": 26.0663,
       "long": -80.3339,
       "short_name": "Y-Solowarm",
-      "full_name": "Y-Solowarm Car Dealership"
-    },
-    {
-      "id": 23,
-      "city": "Des Moines",
-      "state": "Iowa",
-      "st": "IA",
+      "st": "FL",
+      "state": "Florida",
+      "zip": "33330"
+    }
+  }, {
+    "doc": {
       "address": "21425 Bartelt Pass",
-      "zip": "50936",
+      "city": "Des Moines",
+      "full_name": "Bitchip Car Dealership",
+      "id": 23,
       "lat": 41.6727,
       "long": -93.5722,
       "short_name": "Bitchip",
-      "full_name": "Bitchip Car Dealership"
-    },
-    {
-      "id": 24,
-      "city": "Utica",
-      "state": "New York",
-      "st": "NY",
+      "st": "IA",
+      "state": "Iowa",
+      "zip": "50936"
+    }
+  }, {
+    "doc": {
       "address": "408 Delaware Circle",
-      "zip": "13505",
+      "city": "Utica",
+      "full_name": "Aerified Car Dealership",
+      "id": 24,
       "lat": 43.0872,
       "long": -75.2603,
       "short_name": "Aerified",
-      "full_name": "Aerified Car Dealership"
-    },
-    {
-      "id": 25,
-      "city": "Washington",
-      "state": "District of Columbia",
-      "st": "DC",
+      "st": "NY",
+      "state": "New York",
+      "zip": "13505"
+    }
+  }, {
+    "doc": {
       "address": "6505 Melrose Junction",
-      "zip": "20580",
+      "city": "Washington",
+      "full_name": "Opela Car Dealership",
+      "id": 25,
       "lat": 38.8933,
       "long": -77.0146,
       "short_name": "Opela",
-      "full_name": "Opela Car Dealership"
-    },
-    {
-      "id": 26,
-      "city": "Pittsburgh",
-      "state": "Pennsylvania",
-      "st": "PA",
+      "st": "DC",
+      "state": "District of Columbia",
+      "zip": "20580"
+    }
+  }, {
+    "doc": {
       "address": "306 Jenna Parkway",
-      "zip": "15279",
+      "city": "Pittsburgh",
+      "full_name": "Flowdesk Car Dealership",
+      "id": 26,
       "lat": 40.4344,
       "long": -80.0248,
       "short_name": "Flowdesk",
-      "full_name": "Flowdesk Car Dealership"
-    },
-    {
-      "id": 27,
-      "city": "San Antonio",
-      "state": "Texas",
-      "st": "TX",
+      "st": "PA",
+      "state": "Pennsylvania",
+      "zip": "15279"
+    }
+  }, {
+    "doc": {
       "address": "95321 Superior Hill",
-      "zip": "78245",
+      "city": "San Antonio",
+      "full_name": "Namfix Car Dealership",
+      "id": 27,
       "lat": 29.4189,
       "long": -98.6895,
       "short_name": "Namfix",
-      "full_name": "Namfix Car Dealership"
-    },
-    {
-      "id": 28,
-      "city": "Hialeah",
-      "state": "Florida",
-      "st": "FL",
+      "st": "TX",
+      "state": "Texas",
+      "zip": "78245"
+    }
+  }, {
+    "doc": {
       "address": "5458 Maple Way",
-      "zip": "33018",
+      "city": "Hialeah",
+      "full_name": "Fixflex Car Dealership",
+      "id": 28,
       "lat": 25.9098,
       "long": -80.3889,
       "short_name": "Fixflex",
-      "full_name": "Fixflex Car Dealership"
-    },
-    {
-      "id": 29,
-      "city": "San Francisco",
-      "state": "California",
-      "st": "CA",
+      "st": "FL",
+      "state": "Florida",
+      "zip": "33018"
+    }
+  }, {
+    "doc": {
       "address": "9 Harper Circle",
-      "zip": "94110",
+      "city": "San Francisco",
+      "full_name": "Fix San Car Dealership",
+      "id": 29,
       "lat": 37.7509,
       "long": -122.4153,
       "short_name": "Fix San",
-      "full_name": "Fix San Car Dealership"
-    },
-    {
-      "id": 30,
-      "city": "Houston",
-      "state": "Texas",
-      "st": "TX",
+      "st": "CA",
+      "state": "California",
+      "zip": "94110"
+    }
+  }, {
+    "doc": {
       "address": "5423 Spaight Road",
-      "zip": "77218",
+      "city": "Houston",
+      "full_name": "Opela Car Dealership",
+      "id": 30,
       "lat": 29.834,
       "long": -95.4342,
       "short_name": "Opela",
-      "full_name": "Opela Car Dealership"
-    },
-    {
-      "id": 31,
-      "city": "New York City",
-      "state": "New York",
-      "st": "NY",
+      "st": "TX",
+      "state": "Texas",
+      "zip": "77218"
+    }
+  }, {
+    "doc": {
       "address": "5 Northfield Pass",
-      "zip": "10131",
+      "city": "New York City",
+      "full_name": "Fintone Car Dealership",
+      "id": 31,
       "lat": 40.7808,
       "long": -73.9772,
       "short_name": "Fintone",
-      "full_name": "Fintone Car Dealership"
-    },
-    {
-      "id": 32,
-      "city": "Wilkes Barre",
-      "state": "Pennsylvania",
-      "st": "PA",
+      "st": "NY",
+      "state": "New York",
+      "zip": "10131"
+    }
+  }, {
+    "doc": {
       "address": "3 Carey Junction",
-      "zip": "18768",
+      "city": "Wilkes Barre",
+      "full_name": "Subin Car Dealership",
+      "id": 32,
       "lat": 41.2722,
       "long": -75.8801,
       "short_name": "Subin",
-      "full_name": "Subin Car Dealership"
-    },
-    {
-      "id": 33,
-      "city": "Des Moines",
-      "state": "Iowa",
-      "st": "IA",
+      "st": "PA",
+      "state": "Pennsylvania",
+      "zip": "18768"
+    }
+  }, {
+    "doc": {
       "address": "627 Cottonwood Circle",
-      "zip": "50335",
+      "city": "Des Moines",
+      "full_name": "Tres-Zap Car Dealership",
+      "id": 33,
       "lat": 41.6727,
       "long": -93.5722,
       "short_name": "Tres-Zap",
-      "full_name": "Tres-Zap Car Dealership"
-    },
-    {
-      "id": 34,
-      "city": "Silver Spring",
-      "state": "Maryland",
-      "st": "MD",
+      "st": "IA",
+      "state": "Iowa",
+      "zip": "50335"
+    }
+  }, {
+    "doc": {
       "address": "8 Green Hill",
-      "zip": "20904",
+      "city": "Silver Spring",
+      "full_name": "Gembucket Car Dealership",
+      "id": 34,
       "lat": 39.0668,
       "long": -76.9969,
       "short_name": "Gembucket",
-      "full_name": "Gembucket Car Dealership"
-    },
-    {
-      "id": 35,
-      "city": "Seattle",
-      "state": "Washington",
-      "st": "WA",
+      "st": "MD",
+      "state": "Maryland",
+      "zip": "20904"
+    }
+  }, {
+    "doc": {
       "address": "9 Beilfuss Trail",
-      "zip": "98158",
+      "city": "Seattle",
+      "full_name": "Treeflex Car Dealership",
+      "id": 35,
       "lat": 47.4497,
       "long": -122.3076,
       "short_name": "Treeflex",
-      "full_name": "Treeflex Car Dealership"
-    },
-    {
-      "id": 36,
-      "city": "Vienna",
-      "state": "Virginia",
-      "st": "VA",
+      "st": "WA",
+      "state": "Washington",
+      "zip": "98158"
+    }
+  }, {
+    "doc": {
       "address": "311 Paget Alley",
-      "zip": "22184",
+      "city": "Vienna",
+      "full_name": "Latlux Car Dealership",
+      "id": 36,
       "lat": 38.8318,
       "long": -77.2888,
       "short_name": "Latlux",
-      "full_name": "Latlux Car Dealership"
-    },
-    {
-      "id": 37,
-      "city": "Detroit",
-      "state": "Michigan",
-      "st": "MI",
+      "st": "VA",
+      "state": "Virginia",
+      "zip": "22184"
+    }
+  }, {
+    "doc": {
       "address": "152 Moland Lane",
-      "zip": "48224",
+      "city": "Detroit",
+      "full_name": "Ventosanzap Car Dealership",
+      "id": 37,
       "lat": 42.4098,
       "long": -82.9441,
       "short_name": "Ventosanzap",
-      "full_name": "Ventosanzap Car Dealership"
-    },
-    {
-      "id": 38,
-      "city": "Dallas",
-      "state": "Texas",
-      "st": "TX",
+      "st": "MI",
+      "state": "Michigan",
+      "zip": "48224"
+    }
+  }, {
+    "doc": {
       "address": "821 New Castle Trail",
-      "zip": "75226",
+      "city": "Dallas",
+      "full_name": "Zamit Car Dealership",
+      "id": 38,
       "lat": 32.7887,
       "long": -96.7676,
       "short_name": "Zamit",
-      "full_name": "Zamit Car Dealership"
-    },
-    {
-      "id": 39,
-      "city": "Fresno",
-      "state": "California",
-      "st": "CA",
+      "st": "TX",
+      "state": "Texas",
+      "zip": "75226"
+    }
+  }, {
+    "doc": {
       "address": "990 Raven Road",
-      "zip": "93740",
+      "city": "Fresno",
+      "full_name": "Stronghold Car Dealership",
+      "id": 39,
       "lat": 36.7464,
       "long": -119.6397,
       "short_name": "Stronghold",
-      "full_name": "Stronghold Car Dealership"
-    },
-    {
-      "id": 40,
-      "city": "Merrifield",
-      "state": "Virginia",
-      "st": "VA",
+      "st": "CA",
+      "state": "California",
+      "zip": "93740"
+    }
+  }, {
+    "doc": {
       "address": "89375 Main Trail",
-      "zip": "22119",
+      "city": "Merrifield",
+      "full_name": "Greenlam Car Dealership",
+      "id": 40,
       "lat": 38.8318,
       "long": -77.2888,
       "short_name": "Greenlam",
-      "full_name": "Greenlam Car Dealership"
-    },
-    {
-      "id": 41,
-      "city": "Baltimore",
-      "state": "Maryland",
-      "st": "MD",
+      "st": "VA",
+      "state": "Virginia",
+      "zip": "22119"
+    }
+  }, {
+    "doc": {
       "address": "9 Sherman Hill",
-      "zip": "21275",
+      "city": "Baltimore",
+      "full_name": "Tres-Zap Car Dealership",
+      "id": 41,
       "lat": 39.2847,
       "long": -76.6205,
       "short_name": "Tres-Zap",
-      "full_name": "Tres-Zap Car Dealership"
-    },
-    {
-      "id": 42,
-      "city": "Jersey City",
-      "state": "New Jersey",
-      "st": "NJ",
+      "st": "MD",
+      "state": "Maryland",
+      "zip": "21275"
+    }
+  }, {
+    "doc": {
       "address": "62 Manley Point",
-      "zip": "07310",
+      "city": "Jersey City",
+      "full_name": "Konklab Car Dealership",
+      "id": 42,
       "lat": 40.7324,
       "long": -74.0431,
       "short_name": "Konklab",
-      "full_name": "Konklab Car Dealership"
-    },
-    {
-      "id": 43,
-      "city": "Atlanta",
-      "state": "Georgia",
-      "st": "GA",
+      "st": "NJ",
+      "state": "New Jersey",
+      "zip": "07310"
+    }
+  }, {
+    "doc": {
       "address": "91 Declaration Avenue",
-      "zip": "31119",
+      "city": "Atlanta",
+      "full_name": "Opela Car Dealership",
+      "id": 43,
       "lat": 33.8913,
       "long": -84.0746,
       "short_name": "Opela",
-      "full_name": "Opela Car Dealership"
-    },
-    {
-      "id": 44,
-      "city": "Roanoke",
-      "state": "Virginia",
-      "st": "VA",
+      "st": "GA",
+      "state": "Georgia",
+      "zip": "31119"
+    }
+  }, {
+    "doc": {
       "address": "0 Northview Point",
-      "zip": "24014",
+      "city": "Roanoke",
+      "full_name": "Veribet Car Dealership",
+      "id": 44,
       "lat": 37.2327,
       "long": -79.9463,
       "short_name": "Veribet",
-      "full_name": "Veribet Car Dealership"
-    },
-    {
-      "id": 45,
-      "city": "Norfolk",
-      "state": "Virginia",
       "st": "VA",
+      "state": "Virginia",
+      "zip": "24014"
+    }
+  }, {
+    "doc": {
       "address": "283 Mockingbird Plaza",
-      "zip": "23509",
+      "city": "Norfolk",
+      "full_name": "Konklux Car Dealership",
+      "id": 45,
       "lat": 36.8787,
       "long": -76.2604,
       "short_name": "Konklux",
-      "full_name": "Konklux Car Dealership"
-    },
-    {
-      "id": 46,
-      "city": "New Orleans",
-      "state": "Louisiana",
-      "st": "LA",
+      "st": "VA",
+      "state": "Virginia",
+      "zip": "23509"
+    }
+  }, {
+    "doc": {
       "address": "527 Hayes Junction",
-      "zip": "70165",
+      "city": "New Orleans",
+      "full_name": "Regrant Car Dealership",
+      "id": 46,
       "lat": 30.033,
       "long": -89.8826,
       "short_name": "Regrant",
-      "full_name": "Regrant Car Dealership"
-    },
-    {
-      "id": 47,
-      "city": "Stamford",
-      "state": "Connecticut",
-      "st": "CT",
+      "st": "LA",
+      "state": "Louisiana",
+      "zip": "70165"
+    }
+  }, {
+    "doc": {
       "address": "840 Pepper Wood Crossing",
-      "zip": "06905",
+      "city": "Stamford",
+      "full_name": "Prodder Car Dealership",
+      "id": 47,
       "lat": 41.0888,
       "long": -73.5435,
       "short_name": "Prodder",
-      "full_name": "Prodder Car Dealership"
-    },
-    {
-      "id": 48,
-      "city": "Tucson",
-      "state": "Arizona",
-      "st": "AZ",
+      "st": "CT",
+      "state": "Connecticut",
+      "zip": "06905"
+    }
+  }, {
+    "doc": {
       "address": "48610 Morning Street",
-      "zip": "85710",
+      "city": "Tucson",
+      "full_name": "It Car Dealership",
+      "id": 48,
       "lat": 32.2138,
       "long": -110.824,
       "short_name": "It",
-      "full_name": "It Car Dealership"
-    },
-    {
-      "id": 49,
-      "city": "Athens",
-      "state": "Georgia",
-      "st": "GA",
+      "st": "AZ",
+      "state": "Arizona",
+      "zip": "85710"
+    }
+  }, {
+    "doc": {
       "address": "222 Grasskamp Plaza",
-      "zip": "30605",
+      "city": "Athens",
+      "full_name": "Veribet Car Dealership",
+      "id": 49,
       "lat": 33.9321,
       "long": -83.3525,
       "short_name": "Veribet",
-      "full_name": "Veribet Car Dealership"
-    },
-    {
-      "id": 50,
-      "city": "Atlanta",
-      "state": "Georgia",
       "st": "GA",
+      "state": "Georgia",
+      "zip": "30605"
+    }
+  }, {
+    "doc": {
       "address": "76 Clove Trail",
-      "zip": "30316",
+      "city": "Atlanta",
+      "full_name": "Aerified Car Dealership",
+      "id": 50,
       "lat": 33.7217,
       "long": -84.3339,
       "short_name": "Aerified",
-      "full_name": "Aerified Car Dealership"
+      "st": "GA",
+      "state": "Georgia",
+      "zip": "30316"
     }
-  ]
+  }]
 }
