@@ -104,7 +104,7 @@ def get_dealer_details(request, **kwargs):
 def add_review(request, **kwargs):
     if request.method == "GET":
         context = {}
-        cars_at_dealership = CarModel.objects.filter(DEALER_ID=kwargs['dealership_id'])
+        cars_at_dealership = CarModel.objects.filter(dealer_id=kwargs['dealership_id'])
         context['cars'] = cars_at_dealership
         context['dealer'] = kwargs['dealership_id']
         return render(request, 'djangoapp/add_review.html', context)

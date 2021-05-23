@@ -6,7 +6,11 @@
     {% load static %}
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head> 
-
+<style>
+body {background-color: powderblue;}
+h1   {color: blue; text-align: center;}
+p    {color: black; text-align: center;}
+</style>
     <body>
         <nav class="navbar navbar-light bg-light">
         <div class="container-fluid">
@@ -19,22 +23,15 @@
         </nav> 
 
       <div class="container">
-            <h1>Dealership Reviews: </h1>
+            <h1>Past Dealership Reviews: </h1>
             {% if user.is_authenticated %}
-                <a href="{% url 'djangoapp:add_review' dealer %}">Add a Review!</a>
+                <a href="{% url 'djangoapp:add_review' dealer %}">Add a New Review</a>
             {% endif %}
             <br></br>
         </div>
         <div class= "card-columns container">
             {% for review in reviews %}
             <div class="card">
-                {% if review.sentiment == "positive"%}
-                <img class="card-img-left" width="20" height="20" src="{{MEDIA_URL}}/emoji/positive.png">
-                {% elif review.sentiment == "negative" %}
-                <img class="card-img-left" width="20" height="20" src="{{MEDIA_URL}}/emoji/negative.png">
-                {% else %}
-                <img class="card-img-left" width="20" height="20" src="{{MEDIA_URL}}/emoji/neutral.png">
-                {% endif %}
                 <div class="card-body">
                     {% if review.purchase %}
                     <label class="card-title bold">{{review.car_make}}</label>

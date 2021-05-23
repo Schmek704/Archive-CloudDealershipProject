@@ -30,7 +30,7 @@ p    {color: black; text-align: center;}
                 {% if user.is_authenticated %}
                 <div>
                     <form class="d-flex" action="{% url 'djangoapp:logout' %}">
-                        <a class="btn btn-link" href="#">{{ user.first_name }}({{ user.username }})</a>
+                        <p>{{ user.first_name }} ({{ user.username }})</p>
                         <button class="btn btn-outline-secondary text-nowrap" type="submit">Logout</button>
                     </form>
                 </div>
